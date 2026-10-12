@@ -1,0 +1,13 @@
+/.vscode
+/company_dim.csv
+/job_postings_fact.csv
+/postgres.session.sql
+/skills_dim.csv
+/skills_job_dim.csv
+/sql_course.session.sql
+/test.sql
+# Ignore local database tables and large datasets
+/tables/
+
+# Ignore CSV files anywhere in the project (optional)
+# *.csv
