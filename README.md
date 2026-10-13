@@ -49,7 +49,6 @@ LIMIT 10;
 
 **Why this query matters:** It establishes a view of the highest-paid postings in the selected segment. The `LEFT JOIN` adds company names where a matching company record exists, while the filter excludes missing salary values and non-Data-Analyst titles.I limited the results to 10 rows.
 
- ![Top ten highest-paying Data Analyst jobs](assets/top_paying_jobs_result.png) -->
  ### Top-Paying Data Analyst Jobs
 
 The query identifies the ten highest-paying Data Analyst job postings with a location listed as `Anywhere` and a non-null annual salary. The results are ordered by average annual salary in descending order.
